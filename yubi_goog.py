@@ -23,7 +23,7 @@ ADJACENT_INTERVALS = 3 # generate 3 OTPs
 TIME_STEP = 30 # default as per TOTP spec
 
 # Use sudo when invoking ykchalresp
-USE_SUDO = True
+USE_SUDO = False
 
 # supporting py2 and py3 sucks
 IS_PY3 = sys.version_info[0] == 3
